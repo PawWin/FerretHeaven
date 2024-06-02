@@ -1,0 +1,52 @@
+table {
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0.5em;
+}
+
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+thead th {
+    background-color: #999;
+    color: white;
+}
+
+td > div {
+    float: right;
+}
+
+@media only screen and (max-width: 40em) {
+    thead th:not(:first-child) {
+        display: none;
+    }
+    td, th {
+        display: block;
+        clear: both;
+    }
+    td[data-th]:before {
+        content: attr(data-th);
+        float: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-10, .col-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .table {
+        margin-bottom: 1rem;
+    }
+}
+

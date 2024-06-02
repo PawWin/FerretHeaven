@@ -1,0 +1,30 @@
+.nav_item{
+    font-size: 20px !important;
+    color: black !important;
+}
+
+.nav_item:hover{
+    color: rgba(0, 0, 0, 0.37);
+}
+.nav_item_btn{
+    font-size: 20px !important;
+    color: black !important;
+    text-decoration: none;
+}
+.nav_item_btn:hover{
+    color: white;
+}
+.nav_item_login{
+    font-size: 15px !important;
+    color: black !important;
+    text-decoration: none;
+}
+.nav_item_login:hover{
+    color: white !important;
+}
+
+.nav_item_loginn{
+    font-size: 15px !important;
+    color: black !important;
+    text-decoration: none;
+}

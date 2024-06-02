@@ -1,0 +1,11 @@
+.card-img{
+    min-height:180px;
+    max-height:200px;
+}
+
+@media (max-width: 576px) {
+    .kolumna{
+        width:100% !important;
+    }
+
+}
